@@ -6,7 +6,7 @@
   "dependencies": {
     "docz": "^2.2.0",
     "expo": "^36.0.2",
-    "gatsby-plugin-react-native-web": "3.0.0-beta.5",
+    "gatsby-plugin-react-native-web": "3.0.0-beta.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-native-web": "^0.12.0-rc.1"

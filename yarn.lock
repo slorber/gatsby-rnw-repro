@@ -2729,7 +2729,7 @@ babel-plugin-react-native-web@^0.11.2, babel-plugin-react-native-web@^0.11.7:
   resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.11.7.tgz#15b578c0731bd7d65d334f9c759d95e8e4a602e2"
   integrity sha512-CxE7uhhqkzAFkwV2X7+Mc/UVPujQQDtja/EGxCXRJvdYRi72QTmaJYKbK1lV9qgTZuB+TDguU89coaA9Z1BNbg==
 
-babel-plugin-remove-graphql-queries@^2.7.22:
+babel-plugin-remove-graphql-queries@>=2.7.19, babel-plugin-remove-graphql-queries@^2.7.22:
   version "2.7.22"
   resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.7.22.tgz#ff7376efc6db821e144e3f36c3dc02838d0f7516"
   integrity sha512-gb4bKZvePZME/VRBMiIZfnli1BIO0K8cm1Pj9HPm85PqElPHzdjeUZ9p3ybOCGe+BBpIlqKx7mx9V/RsjlH+SA==
@@ -6638,12 +6638,13 @@ gatsby-plugin-react-helmet-async@^1.0.5:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-async/-/gatsby-plugin-react-helmet-async-1.0.14.tgz#0b156c113ce9f9fbbba46f552234b65710e1ceb4"
   integrity sha512-Xcvbmx2lgFycnPQlIsKMypR2PVm2BDR4o3aKnPwmd1cZgf76IgNq7smUZ+pRHJRsc4SVH+8DmiECrTSC5dxqEw==
 
-gatsby-plugin-react-native-web@3.0.0-beta.5:
-  version "3.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-native-web/-/gatsby-plugin-react-native-web-3.0.0-beta.5.tgz#6b8dbdd3decfa74e2d5a9e9bce84ebf0045ea15a"
-  integrity sha512-m0pgeeQVOpbJytCthM0b8UCIhID06LysPpir1uUIokTyq7b2i6wudeFlb0gpbAQsFql4vGh7ewDb8j6koQ/5Zw==
+gatsby-plugin-react-native-web@3.0.0-beta.6:
+  version "3.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-native-web/-/gatsby-plugin-react-native-web-3.0.0-beta.6.tgz#b7f1bfe0fae73b5f0a30b75e35e571dc57fc3409"
+  integrity sha512-dc7TkUhevGwpA0o4oaX4vFO/bh9+of5/SBP4ZSoyiXd6eP8lUPe2DFdnb1vjmhCsb2+HyfTeXZL1xuccdqzXWw==
   dependencies:
     "@expo/webpack-config" "^0.10.6"
+    babel-plugin-remove-graphql-queries ">=2.7.19"
     babel-preset-expo "^8.0.0"
 
 gatsby-plugin-root-import@^2.0.5:
